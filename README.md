@@ -7,3 +7,4 @@ dia 1 -
         -python
         -cmder
 
+teste
