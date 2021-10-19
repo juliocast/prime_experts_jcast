@@ -1,7 +1,3 @@
-#comando utilizado => robot console_tests\test_18102021.robot
-
-*** Settings ***
-
 *** Variable ***
 #Usar & para dicionario
 &{PESSOA}    nome=Julio   sobrenome=Castro   nacionalidade=Brasileiro   telefone=11223344   cidade=SCSul   estado=SP

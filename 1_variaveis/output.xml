@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211019 20:46:07.141" rpa="false" schemaversion="2">
+<suite id="s1" name="1 Variaveis" source="W:\PrimeControl\prime_experts_jcast\1_variaveis\1_variaveis.robot">
+<test id="s1-t1" name="TestCase1">
+<kw name="Test1">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nNome: ${PESSOA.nome}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.164" endtime="20211019 20:46:07.165"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Sobrenome: ${PESSOA.sobrenome}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.165" endtime="20211019 20:46:07.165"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nacionalidade: ${PESSOA.nacionalidade}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.166" endtime="20211019 20:46:07.166"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Telefone: ${PESSOA.telefone}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.167" endtime="20211019 20:46:07.168"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cidade ${PESSOA.cidade}\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.168" endtime="20211019 20:46:07.169"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.estado}\n\n\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.169" endtime="20211019 20:46:07.170"/>
+</kw>
+<status status="PASS" starttime="20211019 20:46:07.163" endtime="20211019 20:46:07.170"/>
+</kw>
+<status status="PASS" starttime="20211019 20:46:07.163" endtime="20211019 20:46:07.170"/>
+</test>
+<test id="s1-t2" name="TestCase2">
+<kw name="Test2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\nLista de frutas ${FRUTAS[0]}, ${FRUTAS[1]}, ${FRUTAS[2]}, ${FRUTAS[3]} e ${FRUTAS[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 20:46:07.172" endtime="20211019 20:46:07.174"/>
+</kw>
+<status status="PASS" starttime="20211019 20:46:07.172" endtime="20211019 20:46:07.174"/>
+</kw>
+<status status="PASS" starttime="20211019 20:46:07.171" endtime="20211019 20:46:07.175"/>
+</test>
+<status status="PASS" starttime="20211019 20:46:07.142" endtime="20211019 20:46:07.176"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="1 Variaveis">1 Variaveis</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
