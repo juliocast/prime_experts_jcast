@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211019 19:47:48.442" rpa="false" schemaversion="2">
+<suite id="s1" name="Test 18102021" source="W:\PrimeControl\prime_experts_jcast\console_tests\test_18102021.robot">
+<test id="s1-t1" name="TestCase1">
+<kw name="Test1">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${PESSOA.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.464" endtime="20211019 19:47:48.465"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Sobrenome: ${PESSOA.sobrenome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.465" endtime="20211019 19:47:48.466"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nacionalidade: ${PESSOA.nacionalidade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.466" endtime="20211019 19:47:48.466"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Telefone: ${PESSOA.telefone}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.466" endtime="20211019 19:47:48.467"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Cidade ${PESSOA.cidade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.467" endtime="20211019 19:47:48.468"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${PESSOA.estado}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.468" endtime="20211019 19:47:48.468"/>
+</kw>
+<status status="PASS" starttime="20211019 19:47:48.464" endtime="20211019 19:47:48.469"/>
+</kw>
+<status status="PASS" starttime="20211019 19:47:48.464" endtime="20211019 19:47:48.469"/>
+</test>
+<test id="s1-t2" name="TestCase2">
+<kw name="Test2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Lista de frutas ${FRUTAS[0]}, ${FRUTAS[1]}, ${FRUTAS[2]}, ${FRUTAS[3]} e ${FRUTAS[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 19:47:48.470" endtime="20211019 19:47:48.473"/>
+</kw>
+<status status="PASS" starttime="20211019 19:47:48.470" endtime="20211019 19:47:48.473"/>
+</kw>
+<status status="PASS" starttime="20211019 19:47:48.470" endtime="20211019 19:47:48.473"/>
+</test>
+<status status="PASS" starttime="20211019 19:47:48.444" endtime="20211019 19:47:48.474"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Test 18102021">Test 18102021</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
