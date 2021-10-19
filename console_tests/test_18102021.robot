@@ -1,3 +1,5 @@
+#comando utilizado => robot console_tests\test_18102021.robot
+
 *** Settings ***
 
 *** Variable ***
@@ -9,18 +11,17 @@
 
 *** Keywords ***
 Test1
-    
     #Printando o dicionario
-    Log To Console    Nome: ${PESSOA.nome}
-    Log To Console    Sobrenome: ${PESSOA.sobrenome}
-    Log To Console    Nacionalidade: ${PESSOA.nacionalidade}
-    Log To Console    Telefone: ${PESSOA.telefone}
-    Log To Console    Cidade ${PESSOA.cidade}
-    Log To Console    ${PESSOA.estado}
+    Log To Console    \nNome: ${PESSOA.nome}\n
+    Log To Console    Sobrenome: ${PESSOA.sobrenome}\n
+    Log To Console    Nacionalidade: ${PESSOA.nacionalidade}\n
+    Log To Console    Telefone: ${PESSOA.telefone}\n
+    Log To Console    Cidade ${PESSOA.cidade}\n
+    Log To Console    ${PESSOA.estado}\n\n\n
 
 Test2
     #Printando a lista
-    Log To Console    Lista de frutas ${FRUTAS[0]}, ${FRUTAS[1]}, ${FRUTAS[2]}, ${FRUTAS[3]} e ${FRUTAS[4]}
+    Log To Console    \nLista de frutas ${FRUTAS[0]}, ${FRUTAS[1]}, ${FRUTAS[2]}, ${FRUTAS[3]} e ${FRUTAS[4]}
 
 *** Test Cases ***
 TestCase1
