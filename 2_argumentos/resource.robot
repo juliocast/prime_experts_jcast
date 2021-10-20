@@ -9,7 +9,7 @@ Juntar argumentos embutidos ${nome} ${sobrenome} ${idade}
     [Return]   ${EMAIL}
 
 
-Juntar argumentos internos
+Juntar argumentos padrao
     [Arguments]   ${nome}   ${sobrenome}   ${idade}
 
     ${EMAIL}   Evaluate  ${nome}+'_'+${sobrenome}+'_'+${idade}+'@robot.com'

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211019 22:09:37.505" rpa="false" schemaversion="2">
+<suite id="s1" name="4 If" source="W:\PrimeControl\prime_experts_jcast\4_if\4_if.robot">
+<test id="s1-t1" name="Numeros">
+<kw name="Imprimir alguns numeros" library="resource">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 22:09:37.529" endtime="20211019 22:09:37.530"/>
+</kw>
+<for flavor="IN">
+<var>${n}</var>
+<value>@{numeros}</value>
+<iter>
+<var name="${n}">1</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.530" endtime="20211019 22:09:37.531"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.530" endtime="20211019 22:09:37.531"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.530" endtime="20211019 22:09:37.531"/>
+</iter>
+<iter>
+<var name="${n}">2</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</iter>
+<iter>
+<var name="${n}">3</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.531"/>
+</iter>
+<iter>
+<var name="${n}">4</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.532"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.532"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.532"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.531" endtime="20211019 22:09:37.532"/>
+</iter>
+<iter>
+<var name="${n}">5</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.533"/>
+</kw>
+<status status="PASS" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.533"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.533"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.532" endtime="20211019 22:09:37.533"/>
+</iter>
+<iter>
+<var name="${n}">6</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.533"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.533"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.533"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.533"/>
+</iter>
+<iter>
+<var name="${n}">7</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.534"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.534"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.534"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.533" endtime="20211019 22:09:37.534"/>
+</iter>
+<iter>
+<var name="${n}">8</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 22:09:37.534" endtime="20211019 22:09:37.535"/>
+</kw>
+<status status="PASS" starttime="20211019 22:09:37.534" endtime="20211019 22:09:37.535"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.534" endtime="20211019 22:09:37.535"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.534" endtime="20211019 22:09:37.535"/>
+</iter>
+<iter>
+<var name="${n}">9</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</iter>
+<iter>
+<var name="${n}">10</var>
+<if>
+<branch type="IF" condition="${n} == 5 or ${n} == 8">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Encontrei o numero ${n}!!!\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</kw>
+<status status="NOT RUN" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</branch>
+<status status="PASS" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</if>
+<status status="PASS" starttime="20211019 22:09:37.535" endtime="20211019 22:09:37.535"/>
+</iter>
+<status status="PASS" starttime="20211019 22:09:37.530" endtime="20211019 22:09:37.536"/>
+</for>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Fim da lista!cls</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20211019 22:09:37.536" endtime="20211019 22:09:37.536"/>
+</kw>
+<status status="PASS" starttime="20211019 22:09:37.529" endtime="20211019 22:09:37.536"/>
+</kw>
+<status status="PASS" starttime="20211019 22:09:37.529" endtime="20211019 22:09:37.537"/>
+</test>
+<doc>Exercicio de FOR com listas</doc>
+<status status="PASS" starttime="20211019 22:09:37.507" endtime="20211019 22:09:37.538"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="4 If">4 If</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

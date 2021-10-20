@@ -7,6 +7,6 @@ Argumentos embutidos
     ${RESULTADO}   Juntar argumentos embutidos 'julio' 'castro' '29'
     Log To Console  ${RESULTADO}
 
-Argumentos internos
-    ${RESULTADO}   Juntar argumentos internos   'julio'   'castro'   '29'
+Argumentos padrao
+    ${RESULTADO}   Juntar argumentos padrao   'julio'   'castro'   '29'
     Log To Console  ${RESULTADO}
