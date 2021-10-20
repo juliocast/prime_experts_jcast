@@ -16,4 +16,4 @@ Imprimir alguns numeros
             Log To Console  Encontrei o numero ${n}!!!\n
         END
     END
-    Log To Console  Fim da lista!cls
+    Log To Console  Fim da lista!
