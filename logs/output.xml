@@ -1,115 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211020 15:00:35.798" rpa="false" schemaversion="2">
-<suite id="s1" name="5 Setup Teardown" source="W:\PrimeControl\prime_experts_jcast\5_setup_teardown\5_setup_teardown.robot">
-<kw name="Preparacao do suite" library="resource" type="SETUP">
-<kw name="Log To Console" library="BuiltIn">
-<arg>!!! Aqui vão os preparativos para o Suite de Testes !!!</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.822" endtime="20211020 15:00:35.822"/>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211020 20:06:50.545" rpa="false" schemaversion="2">
+<suite id="s1" name="6 Web" source="W:\PrimeControl\prime_experts_jcast\6_web\6_web.robot">
+<test id="s1-t1" name="TestCase1">
+<kw name="Abrir browser no site" library="resource">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211020 20:06:50.747" level="INFO">Opening browser 'Chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20211020 20:06:50.747" endtime="20211020 20:06:55.510"/>
 </kw>
-<status status="PASS" starttime="20211020 15:00:35.822" endtime="20211020 15:00:35.823"/>
+<status status="PASS" starttime="20211020 20:06:50.746" endtime="20211020 20:06:55.510"/>
 </kw>
-<test id="s1-t1" name="Caso de teste 1">
-<kw name="Comeco dos testes" library="resource" type="SETUP">
-<kw name="Log To Console" library="BuiltIn">
-<arg>!!! Aqui vão verificações e preparações para o teste !!!</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.823" endtime="20211020 15:00:35.824"/>
+<kw name="Digitar na pesquisa" library="resource">
+<arg>blouse</arg>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>search_query_top</arg>
+<arg>${pesquisar}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211020 20:06:55.511" level="INFO">Typing text 'blouse' into text field 'search_query_top'.</msg>
+<status status="PASS" starttime="20211020 20:06:55.511" endtime="20211020 20:06:55.577"/>
 </kw>
-<status status="PASS" starttime="20211020 15:00:35.823" endtime="20211020 15:00:35.824"/>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>submit_search</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211020 20:06:55.577" level="INFO">Clicking button 'submit_search'.</msg>
+<status status="PASS" starttime="20211020 20:06:55.577" endtime="20211020 20:06:56.691"/>
 </kw>
-<kw name="Teste de exemplo" library="resource">
-<kw name="Log To Console" library="BuiltIn">
-<arg>\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.824" endtime="20211020 15:00:35.825"/>
+<status status="PASS" starttime="20211020 20:06:55.511" endtime="20211020 20:06:56.691"/>
 </kw>
-<for flavor="IN">
-<var>${p}</var>
-<value>@{paises}</value>
-<iter>
-<var name="${p}">Islandia</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Testando o país ${p}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.825" endtime="20211020 15:00:35.826"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.825" endtime="20211020 15:00:35.826"/>
-</iter>
-<iter>
-<var name="${p}">Togo</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Testando o país ${p}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.826" endtime="20211020 15:00:35.826"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.826" endtime="20211020 15:00:35.826"/>
-</iter>
-<iter>
-<var name="${p}">Brasil</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Testando o país ${p}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.827" endtime="20211020 15:00:35.827"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.826" endtime="20211020 15:00:35.827"/>
-</iter>
-<iter>
-<var name="${p}">Camboja</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Testando o país ${p}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.827" endtime="20211020 15:00:35.828"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.827" endtime="20211020 15:00:35.828"/>
-</iter>
-<iter>
-<var name="${p}">Canada</var>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Testando o país ${p}\n</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.828" endtime="20211020 15:00:35.828"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.828" endtime="20211020 15:00:35.828"/>
-</iter>
-<status status="PASS" starttime="20211020 15:00:35.825" endtime="20211020 15:00:35.828"/>
-</for>
-<kw name="Log To Console" library="BuiltIn">
-<arg>Fim do teste dos países!</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.829" endtime="20211020 15:00:35.829"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.824" endtime="20211020 15:00:35.829"/>
-</kw>
-<kw name="Fim dos testes" library="resource" type="TEARDOWN">
-<kw name="Log To Console" library="BuiltIn">
-<arg>!!! Aqui vão verificações e tarefas pós teste !!!</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.831" endtime="20211020 15:00:35.831"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.830" endtime="20211020 15:00:35.831"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.823" endtime="20211020 15:00:35.831"/>
+<doc>Teste de pesquisar blusa</doc>
+<tag>pesquisar</tag>
+<status status="PASS" starttime="20211020 20:06:50.746" endtime="20211020 20:06:56.691"/>
 </test>
-<kw name="Finalizacao do suite" library="resource" type="TEARDOWN">
-<kw name="Log To Console" library="BuiltIn">
-<arg>!!! Aqui vão as ultimas tarefas do Suite de Testes !!!</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20211020 15:00:35.833" endtime="20211020 15:00:35.833"/>
-</kw>
-<status status="PASS" starttime="20211020 15:00:35.833" endtime="20211020 15:00:35.833"/>
-</kw>
-<doc>Uso do Setup e Teardown para Suite e Testes</doc>
-<status status="PASS" starttime="20211020 15:00:35.799" endtime="20211020 15:00:35.833"/>
+<status status="PASS" starttime="20211020 20:06:50.546" endtime="20211020 20:06:56.692"/>
 </suite>
 <statistics>
 <total>
 <stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0" skip="0">pesquisar</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="5 Setup Teardown">5 Setup Teardown</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="6 Web">6 Web</stat>
 </suite>
 </statistics>
 <errors>
